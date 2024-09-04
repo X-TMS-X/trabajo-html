@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif
+}
+
+h1 {
+    color: rgb(78, 255, 225);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px;
+}
+h3 {
+    color: rgb(21, 255, 0);
+    font-size: 40px;
+    text-align: center;
+    
+}
+h2{
+  color: rgb(247, 252, 0);
+  text-align: center;
+}
+p {
+  color: rgb(167, 0, 233) ;
+  font-size: 20px;
+  text-align: center;
+}
+a {
+  font-size: 20px;
+ color: rgb(0, 87, 250);
+}
+li {
+    color: aquamarine;
+}
+.imagen-de-zelda {
+    width: 600px;
+    border-radius: 20px;
+    background-position: center;
+    display: block;
+    margin: 0 auto;
+    border-width: 10px;
+    border-color: lime ;
+    border-style: groove;
+  }
+.imagen-objetos-zelda{
+    width: 600px;
+    border-radius: 20px;
+    background-position: center;
+    display: block;
+    margin: 0 auto;
+    border-width: 10px;
+    border-color: greenyellow ;
+    border-style: groove;
+}
+.tipos-de-mapas-zelda{
+  width: 600px;
+    border-radius: 20px;
+    background-position: center;
+    display: block;
+    margin: 0 auto;
+    border-width: 10px;
+    border-color: rgb(0, 255, 255);
+    border-style: groove;
+}
+.combos-zelda{
+  width: 600px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+  border-width: 10px;
+  border-color: rgb(49, 161, 253);
+  border-style: groove;
+}
+.comida-items-zelda{
+  width: 600px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+  border-width: 10px;
+  border-color: violet;
+  border-style: groove;
+}
+.imagen-zelda-armadura{
+  width: 400px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+body{
+  background-image: 
+  url('https://wc.wallpaperuse.com/wallp/22-223178_s.jpg'),
+  url('https://images7.alphacoders.com/133/1330226.jpeg'),
+  url('https://w.wallhaven.cc/full/gp/wallhaven-gp5k23.jpg');
+background-size: 2000px 1176px, 2000px 1176px, 2000px 1176px; /* Ajusta el tamaño de cada imagen para cubrir el fondo */
+background-repeat: no-repeat, no-repeat, no-repeat; /* Evita que las imágenes se repitan */
+background-position: center bottom, center center, center top; /* Posiciona cada imagen */
+}
